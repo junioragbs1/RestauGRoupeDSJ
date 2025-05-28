@@ -1,0 +1,34 @@
+:root {
+  --main-color: white;
+  --font-size: 16px;
+  --header-color: black;
+}
+.imgHeader {
+  margin-left: 40px;
+}
+header {
+  background-color: var(--header-color);
+  padding: 10px;
+  color: var(--main-color);
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+li {
+  list-style: none;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+a {
+  color: white;
+  font-size: 2em;
+  margin: 10px;
+}
+a:hover {
+  color: orange;
+}
