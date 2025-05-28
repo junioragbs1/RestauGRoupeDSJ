@@ -19,6 +19,37 @@ header {
 li {
   list-style: none;
 }
+/*Sytle for welcome message and cards */
+
+
+
+.menu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  margin: 0 auto 25px auto;
+}
+
+
+.menu-card {
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px #0001;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  width: 350px;
+}
+
+
+.menu-cards .menu-card:nth-child(3) {
+  flex-basis: 100%;
+  margin-left: 0;
+}
+
+
+/*End Style */
+
 footer {
   background-color: black;
   color: white;
